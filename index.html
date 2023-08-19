@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <!-- Tailwind CSS CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+ </head>
+ <body>
+ 
+    <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-20 flex h-screen justify-center items-center">
+<div class="p-10 bg-white shadow-lg">
+   <h1 class="text-center">Money Master</h1>
+   <div class="flex items-center justify-center mt-10">
+   <div class="flex gap-10 items-center">
+      <div class="flex-1 h-[580px] rounded-md">
+            <img src="./assets/bg.png" alt="#" class="h-full w-full object-cover ">
+      </div>
+   
+      <div class="space-y-5 flex-1 h-[580px] bg-gray-100 rounded-md">
+         <h2 class="text-center mt-5">Income</h2>
+   
+         <div class="flex gap-5 justify-center">
+            <p class="w-20">Income</p> <input type="number" placeholder="Enter Your Income" class="bg-gray-300 rounded-sm">
+         </div>
+         <h2 class="text-center">Expenses</h2>
+      
+         <div class="flex gap-5 justify-center">
+            <p class="w-20">Food</p> <input type="number" placeholder="Enter Your Income" class="bg-gray-300 rounded-sm">
+         </div>
+   
+      <div class="flex gap-5 justify-center">
+         <p class="w-20">Rent</p> <input type="number" placeholder="Enter Your Income" class="bg-gray-300 rounded-sm">
+      </div>
+   
+      <div class="flex gap-5 justify-center">
+         <p class="w-20">Clothes</p> <input type="number" placeholder="Enter Your Income" class="bg-gray-300 rounded-sm">
+      </div>
+   
+   <div class="text-center">
+      <button class="bg-[#59A5FF] px-8 py-2 rounded-sm text-lg text-white font-semibold">Calculate</button>
+   </div>
+   
+      <h2 class="text-center">Total Expenses: <span></span></h2>
+   
+      <h2 class="text-center">Balance: <span></span></h2>
+   
+      <div class="flex items-center gap-5 justify-center">
+         <p>Save:</p><input type="number" placeholder="Savings" class="bg-gray-300 w-[80px] px-1 py-1 rounded-sm" ><span>%</span><button class="bg-[#59A5FF] text-lg text-white font-semibold px-4 py-1 rounded-sm">Save</button>
+      </div>
+   
+      <h2 class="text-center">Savings Amount: <span></span></h2>
+   
+      <h2 class="text-center">Remaining Balance: <span></span></h2>
+   </div>
+   </div>
+   </div>
+</div>
+    </section>
+ </body>
+ </html>
